@@ -51,7 +51,3 @@ count
 #total values on which the prediction was run on
 total_values=len(pred)
 total_values
-
-#Accuracy value
-Accuracy=count/total_values
-Accuracy
