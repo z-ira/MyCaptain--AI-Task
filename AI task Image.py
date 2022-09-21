@@ -4,7 +4,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-get_ipython().run_line_magic('matplotlib', 'inline')#%matplotlib inline
+%matplotlib inline
 
 data=pd.read_csv('mnist.csv')
 
